@@ -56,3 +56,5 @@ help: use `!` to invoke the macro
   - `fast! try!`
 - cargo build --release
   - `run fast, but build long`
+### 2-1 guess number
+- 
