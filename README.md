@@ -66,3 +66,6 @@ help: use `!` to invoke the macro
 - cargo update: "major.minor.build", it only update latest build under specific minor 
   - also update .lock
 - rand::Rng
+### 2-3 
+- shawdow
+- match, arm

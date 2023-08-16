@@ -16,11 +16,13 @@ fn main() {
     .expect("無法讀取行"); // OK expect取值顯示, Err取""顯示
     println!("你猜測的數字是: {}", guess);
 
-    // Match input and secret
-    let guess:u32 = guess
+    // #### Match input and secret
+    // shadow new variable
+    let guess:u32 = guess.trim().parse().expect("Please type a number");
+    // match, arm
     match guess.cmp(&secret_number) {
         Ordering::Equal => println!("You Win!"), //arm
-        Ordering::Greater => println!("Too Small!"), //arm
-        Ordering::Less => println!("Too Big!"), //arm
+        Ordering::Greater => println!("Too Big!"), //arm
+        Ordering::Less => println!("Too Small!"), //arm
     }
 }
