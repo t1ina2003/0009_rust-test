@@ -69,3 +69,6 @@ help: use `!` to invoke the macro
 ### 2-3 
 - shawdow
 - match, arm
+### 2-4
+- add loop, and break
+- use match to process no numeric situation.
