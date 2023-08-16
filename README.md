@@ -57,4 +57,12 @@ help: use `!` to invoke the macro
 - cargo build --release
   - `run fast, but build long`
 ### 2-1 guess number
-- 
+- let
+- mut
+- read_line
+- expect
+### 2-2 rand
+- crates.io
+- cargo update: "major.minor.build", it only update latest build under specific minor 
+  - also update .lock
+- rand::Rng
