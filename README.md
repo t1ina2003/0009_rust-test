@@ -80,3 +80,6 @@ help: use `!` to invoke the macro
 - only Byte(u8 only) = b'A'
 - overflow "panic" only seen in Debug, not release
 - char: 4 bytes
+### 3-3 
+- tuple (a,b,c,d), many types
+- Rust check out of bounds.
