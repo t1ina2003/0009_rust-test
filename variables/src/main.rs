@@ -11,5 +11,8 @@ fn main() {
     let y = 5;
     let y = y + 1;
     println!("The value of y is {}", y);
-
+    
+    // 3-2 type
+    let guess: u32 = "42".parse().expect("not a number");
+    
 }

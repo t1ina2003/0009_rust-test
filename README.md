@@ -74,3 +74,9 @@ help: use `!` to invoke the macro
 - match: process non-numeric situation.
 ### 3-1
 - let, const, shadow
+### 3-2
+- i32, u32...
+- arch, isize, usize
+- only Byte(u8 only) = b'A'
+- overflow "panic" only seen in Debug, not release
+- char: 4 bytes
