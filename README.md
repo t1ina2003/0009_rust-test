@@ -67,8 +67,8 @@ help: use `!` to invoke the macro
   - also update .lock
 - rand::Rng
 ### 2-3 
-- shawdow
-- match, arm
+- shawdow: reassign variable.
+- match, arm Guess too big or too small or you win.
 ### 2-4
-- add loop, and break
-- use match to process no numeric situation.
+- add Game loop, and Gameover break
+- match: process non-numeric situation.
