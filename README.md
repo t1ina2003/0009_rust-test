@@ -83,3 +83,7 @@ help: use `!` to invoke the macro
 ### 3-3 
 - tuple (a,b,c,d), many types
 - Rust check out of bounds.
+### 3-4
+- fn
+- statement, expression
+- early return 

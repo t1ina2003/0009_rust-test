@@ -27,5 +27,29 @@ fn main() {
     // let index = [12, 13, 14, 15];
     // let month = months[index[0]];
     // println!("{}", month);
+    another_function(5,6);
 
+}
+    //3-4 fn, parameter must have type
+fn another_function(x: i32, y: i32){
+    println!("the value of x is {}", x);
+    println!("the value of y is {}", y);
+    // special use 
+    // z = {expect an expression}
+    // let a = 1; semicolon ending is a "statement"
+    // but a + 3 without semicolon is a "expression"
+    // so it's ok for compile & run.
+    let z = {
+        let a = 1;
+        a + 3
+    };
+    println!("the value of z is {}", z);
+
+    println!("{}", five(1));
+}
+    // fn with return, "no name" for return.
+fn five(x: i32) -> i32 {
+    // return 3;// if we need return early, return 
+
+    x + 5 // don't semicolon, it's expression not statement.
 }
