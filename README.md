@@ -67,8 +67,10 @@ help: use `!` to invoke the macro
   - also update .lock
 - rand::Rng
 ### 2-3 
-- shawdow: reassign variable.
+- shawdow: reassign mutable variable.
 - match, arm Guess too big or too small or you win.
 ### 2-4
 - add Game loop, and Gameover break
 - match: process non-numeric situation.
+### 3-1
+- let, const, shadow
